@@ -43,23 +43,23 @@
               <td class="c-width">
                 <a *ngIf="channel.unique_link"
                   [href]="
-                    'https://tube.freedom.buzz/channel/' +
+                    'https://tube.conscienceexplorers.com/channel/' +
                     channel.unique_link
                   "
                   target="_blank"
                   >{{
-                    "https://tube.freedom.buzz/channel/" +
+                    "https://tube.conscienceexplorers.com/channel/" +
                     channel.unique_link
                   }}</a
                 >
               </td>
               <td class="c-width">
-                {{ channel.Username || channel.FirstName }}
+                {{ channel.userName || channel.FirstName }}
               </td>
               <td>
                 <img
                   class="avatar-img"
-                  [src]="channel.ProfilePicName"
+                  [src]="channel.profilePicName"
                   onerror="this.onerror=null;
                   this.src='assets/img/avatars/placeholder-user.png';"
                 />
