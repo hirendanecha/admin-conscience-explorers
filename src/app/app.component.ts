@@ -8,10 +8,10 @@ import { TokenStorageService } from './services/token-storage.service';
 
 @Component({
   selector: 'app-root',
-  template: '<router-outlet></router-outlet>',
+  template: '<app-toaster /><router-outlet></router-outlet>',
 })
 export class AppComponent implements OnInit {
-  title = 'Conscience Explorers Admin';
+  title = 'ConscienceExplorers Admin';
 
   constructor(
     private router: Router,

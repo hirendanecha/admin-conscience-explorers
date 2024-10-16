@@ -11,6 +11,11 @@ export const navItems: INavData[] = [
     // }
   },
   {
+    name: 'News Feed',
+    url: '/newsfeed',
+    iconComponent: { name: 'cil-notes' },
+  },
+  {
     name: 'Visionaries',
     url: '/visionaries',
     iconComponent: { name: 'cil-bookmark' },
@@ -41,7 +46,7 @@ export const navItems: INavData[] = [
     iconComponent: { name: 'cil-https' },
   },
   {
-    name: 'MT Channels',
+    name: 'FT Channels',
     url: '/channels',
     iconComponent: { name: 'cil-screen-desktop' },
   },
